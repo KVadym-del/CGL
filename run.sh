@@ -21,9 +21,9 @@ if [ $? -ne 0 ]; then
 fi
 
 if [ "$1" == "debug" ] || [ "$1" == "" ]; then
-	./build/Debug/CGL
+	./build/test/Debug/CGL_Test
 else
-	./build/Release/CGL
+	./build/test/Release/CGL_Test
 fi
 if [ $? -ne 0 ];then echo "run failed"
     exit 1

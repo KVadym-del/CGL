@@ -1,11 +1,4 @@
-#include <fcntl.h>
-#include <stdint.h>
-#include <stdio.h>
-#include <sys/ioctl.h>
-#include <termios.h>
-#include <unistd.h>
-
-#include "headers/core.h"
+#include <core.h>
 
 int main()
 {

@@ -12,7 +12,7 @@ void create_window()
     codepoint_t *matrix = (codepoint_t *)malloc(w.ws_row * w.ws_col * sizeof(codepoint_t));
     if (matrix == NULL)
     {
-        perror("Failed to allocate memory");
+        perror("Failed to allocate memory!\n");
         free(matrix);
         exit(1);
     }
@@ -25,7 +25,7 @@ void close_window()
 {
     free(g_window->field);
     free(g_window);
-    printf("Window closed successfully\n");
+    printf("Window closed successfully!\n");
 }
 
 struct window *get_window()

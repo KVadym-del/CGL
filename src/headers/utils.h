@@ -1,8 +1,6 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-#include <arrayfire.h>
-
 #include <fcntl.h>
 #include <stdio.h>
 #include <sys/ioctl.h>
